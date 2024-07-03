@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>async-center-bootstrap</module>
+        <module>async-center-core</module>
     </modules>
 
     <properties>
