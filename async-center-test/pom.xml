@@ -12,6 +12,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>test-easyexcel-4</module>
+        <module>test-ac-core</module>
+        <module>test-ac-common</module>
     </modules>
 
     <artifactId>async-center-test</artifactId>
@@ -22,6 +24,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
 
     <build>
         <resources>

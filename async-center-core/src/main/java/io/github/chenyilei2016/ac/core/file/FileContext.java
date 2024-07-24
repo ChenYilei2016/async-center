@@ -7,7 +7,16 @@ import lombok.Data;
 @Data
 public class FileContext {
 
+    /**
+     * todo: 一些任务信息
+     */
+    public String jobId() {
+        return "tmp_todo_";
+    }
 
+    /**
+     * todo: 能够获取具体的excel类型
+     */
     public ExcelTypeEnum readExcelType() {
         return ExcelTypeEnum.XLSX;
     }

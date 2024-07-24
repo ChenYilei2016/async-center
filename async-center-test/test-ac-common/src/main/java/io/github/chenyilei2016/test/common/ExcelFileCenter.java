@@ -1,9 +1,8 @@
-package io.github.chenyilei2016.test.excel4;
+package io.github.chenyilei2016.test.common;
 
 import lombok.SneakyThrows;
 
 import java.io.File;
-import java.net.URL;
 import java.net.URLDecoder;
 
 /**
@@ -22,10 +21,10 @@ public abstract class ExcelFileCenter {
      *
      * @formatter:on
      */
-    static File 两行head_第一行全占用;
+    public static File 两行head_第一行全占用;
 
     @SneakyThrows
-    static String simpleGetResponse(String path) {
+    public static String simpleGetResponse(String path) {
         return URLDecoder.decode(ExcelFileCenter.class.getClassLoader().getResource(path).getPath(), "utf-8");
     }
 
