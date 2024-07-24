@@ -3,7 +3,6 @@ package io.github.chenyilei2016.test.excel4;
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.annotation.ExcelProperty;
 import com.alibaba.excel.context.AnalysisContext;
-import com.alibaba.excel.event.AnalysisEventListener;
 import com.alibaba.excel.metadata.CellExtra;
 import com.alibaba.excel.read.listener.PageReadListener;
 import lombok.Data;
@@ -11,8 +10,6 @@ import org.junit.Test;
 
 import java.util.List;
 import java.util.Map;
-
-import static org.junit.Assert.*;
 
 /**
  * @author chenyilei
