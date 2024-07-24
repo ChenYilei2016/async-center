@@ -18,6 +18,7 @@ public class ColumnHeadersImpl implements ColumnHeaders {
 
     private Map<String, ColumnHeader> fieldNameIndexMap;
 
+    //从1开始
     private Map<Integer, ColumnHeader> columnIndexIndexMap;
 
     private Map<String, ColumnHeader> headerNameKeyIndexMap;
